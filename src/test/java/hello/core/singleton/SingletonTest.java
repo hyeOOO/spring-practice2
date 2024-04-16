@@ -35,6 +35,8 @@ public class SingletonTest {
         System.out.println("instance2 = " + instance2);
 
         assertThat(instance1).isSameAs(instance2);
+
+        instance2.logic();
     }
 
     @Test

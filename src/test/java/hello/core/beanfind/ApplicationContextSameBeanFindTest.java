@@ -55,5 +55,6 @@ public class ApplicationContextSameBeanFindTest {
         @Bean
         public MemberRepository memberRepository2() {
             return new MemoryMemberRepository();
-        } }
+        }
+    }
 }
