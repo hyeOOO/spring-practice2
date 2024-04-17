@@ -1,7 +1,5 @@
-package hello.core.beanfind.scan.filter;
-
+package hello.core.scan.filter;
 import java.lang.annotation.*;
-
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
